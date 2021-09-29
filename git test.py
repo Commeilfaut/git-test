@@ -1,4 +1,4 @@
-with open("system_log.3.txt") as f:
+with open(input("Ведите имя файла ")) as f:
     with open("out.txt", "w") as f1:
         with open("out2.txt", "w") as f2:    
             for line in f:
